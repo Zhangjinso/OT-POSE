@@ -84,7 +84,11 @@ The result images are save in  `./result/fashion_256/inference `.
 
 
 
+## Fine-tune
+python finetune_video_demo.py  --file_pairs demo_txt/demo.txt  --output_dir demo_finetune_output/ --name=baseline+ot+dual --which_iter=215881
+
 ## Evaluation
 
 The evaluation process follows [repo](https://github.com/Zhangjinso/Pose_Transfer_Evaluation)
+
 
